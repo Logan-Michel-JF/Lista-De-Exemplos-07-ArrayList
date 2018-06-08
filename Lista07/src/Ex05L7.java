@@ -1,4 +1,6 @@
 
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 /**
  
@@ -7,7 +9,17 @@
 public class Ex05L7 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        ArrayList<String> nomes = new ArrayList<>();
+        for (int i = 0; i < 4; i++) {
+             nomes.add(JOptionPane.showInputDialog("Digite o " + (i + 1)
+                        + "° Nome"));
+        }
+        String outroNome = JOptionPane.showInputDialog("Digite um Nome para a Busca.");
+        
+        for (int         
+        }
+                
     }
 
 }
